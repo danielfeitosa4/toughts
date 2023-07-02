@@ -18,7 +18,7 @@ const toughtsRoutes = require('./routes/toughtsRoutes')
 const authRoutes = require('./routes/authRoutes')
 
 // Import Controller
-const ToughtController = require('./controllers/TougthController')
+const ToughtController = require('./controllers/ToughtController')
 
 // template engine
 app.engine('handlebars', exphbs.engine())
